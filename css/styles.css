@@ -36,15 +36,21 @@ in the middle of the screen
 
 .sidebar {
 width: 85%;
-height: 500px;
+height: 2000px;
 margin-right: 40px;
 margin-left: 10%
 }
 
 .content {
-  width: 30%;
-  height: 500px;
+  width: 40%;
+  height: 2000px;
   margin-right: 5%
+}
+
+ul  {
+    padding-inline-start: 0px;
+    list-style-type: none;
+    line-height: 1.6;
 }
 
 .content-container {
