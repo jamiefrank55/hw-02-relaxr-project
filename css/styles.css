@@ -1,4 +1,71 @@
 /* Box Model Hack */
+/* Use this style as your guidelines, comment out when done*/
+/* * {
+  border: 1px dashed blue;
+} */
+
+/*
+Apply this style to every bordered box that
+will have a gray background
+*/
+.box {
+  background-color: #EEE;
+  border: 1px #333 solid;
+}
+
+/*
+This style will center the entire content of the page
+in the middle of the screen
+*/
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.footer {
+  height: 200px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.sidebar {
+width: 85%;
+height: 500px;
+margin-right: 40px;
+margin-left: 10%
+}
+
+.content {
+  width: 30%;
+  height: 500px;
+  margin-right: 5%
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 960px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
 * {
      -moz-box-sizing: border-box; /* Firexfox */
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
