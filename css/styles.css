@@ -23,27 +23,37 @@ in the middle of the screen
 }
 
 .header {
-  height: 200px;
+  height: 100px;
   width: 100%;
   margin-bottom: 40px;
 }
 
-.footer {
-  height: 200px;
-  width: 100%;
-  margin-top: 40px;
+.container nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 90px;
+  padding-top: 40px;
 }
+
+.container nav h1 {
+  margin-right: 200px;
+  margin-left: 90px;
+  margin-top: -6px;
+
+}
+
 
 .sidebar {
 width: 85%;
-height: 2000px;
+height: 1500px;
 margin-right: 40px;
 margin-left: 10%
 }
 
 .content {
   width: 40%;
-  height: 2000px;
+  height: 1500px;
   margin-right: 5%
 }
 
@@ -58,11 +68,25 @@ ul  {
   flex-direction: row;
   justify-content: center;
   width: 960px;
-
-
-
 }
 
+.footer {
+  margin-top: 40px;
+  height: 200px;
+}
+
+
+.footer h1 {
+  text-align: center;
+}
+
+.footer h2 {
+  text-align: center;
+}
+
+.footer p {
+  text-align: center;
+}
 
 
 
